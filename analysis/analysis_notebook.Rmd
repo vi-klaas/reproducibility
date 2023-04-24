@@ -1,0 +1,30 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+This is a R Notebook.
+
+# Load the config
+```{r}
+source(here::here("config.R"))
+```
+
+
+# Load the data
+```{r}
+a <- 5
+```
+
+# Preare the data
+```{r}
+result <- increment_a_v2(a)
+result <- result * result
+```
+# Analyse the data
+...
+
+# Show the result
+```{r}
+print(result)
+```
+
